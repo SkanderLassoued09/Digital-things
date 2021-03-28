@@ -29,8 +29,12 @@
             ],
             "styles": [
               "src/styles.css"
+             
+              
             ],
-            "scripts": []
+            "scripts": [
+              
+            ]
           },
           "configurations": {
             "production": {
@@ -124,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "DigitalThings"
+  "defaultProject": "DigitalThings",
+  "cli": {
+    "analytics": "d5601a52-db5c-44eb-8772-e1d130a3cae0"
+  }
 }

@@ -19,8 +19,16 @@
     "@angular/platform-browser": "~11.0.0",
     "@angular/platform-browser-dynamic": "~11.0.0",
     "@angular/router": "~11.0.0",
+    "@splidejs/splide": "^2.4.21",
+    "@types/jquery": "^3.5.5",
+    "angular-responsive-carousel": "^2.0.2",
+    "install": "^0.13.0",
+    "jquery": "^3.6.0",
+    "ngx-owl-carousel-o": "^5.0.0",
+    "owl-carousel": "^1.0.0",
+    "owl.carousel2": "^2.2.1",
     "rxjs": "~6.6.0",
-    "tslib": "^2.0.0",
+    "tslib": "^2.1.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
