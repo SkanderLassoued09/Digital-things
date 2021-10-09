@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { OwlOptions } from 'ngx-owl-carousel-o';
+import { type } from 'jquery';
+
+import { HttpRequestService } from '../services/http-request.service';
 
 
 @Component({
@@ -11,12 +13,31 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 
 
 export class HomeComponent implements OnInit {
+  itemProducts: any;
 
-  constructor() { }
+
+
+
+
+
+  constructor(private api: HttpRequestService) {
+    this.dealAPI();
+
+
+
+  }
 
   ngOnInit(): void {
   }
- 
+  dealAPI() {
+    this.api.getProduct().subscribe(param => {
+      this.itemProducts = param
+
+      console.log(this.itemProducts);
+
+    });
+
+  }
 
 
 }
