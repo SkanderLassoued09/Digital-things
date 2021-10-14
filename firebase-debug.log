@@ -1,0 +1,96 @@
+[debug] [2021-10-13T21:29:46.515Z] ----------------------------------------------------------------------
+[debug] [2021-10-13T21:29:46.521Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Skander\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-10-13T21:29:46.522Z] CLI Version:   9.20.0
+[debug] [2021-10-13T21:29:46.522Z] Platform:      win32
+[debug] [2021-10-13T21:29:46.522Z] Node Version:  v14.15.0
+[debug] [2021-10-13T21:29:46.524Z] Time:          Wed Oct 13 2021 23:29:46 GMT+0200 (heure d’été d’Europe centrale)
+[debug] [2021-10-13T21:29:46.525Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-13T21:29:46.549Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-10-13T21:29:46.675Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-13T21:29:46.675Z] > authorizing via signed-in user (lassoued.skanderr@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Skander\Desktop\skander\projects\pfa\DigitalThings
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2021-10-13T21:29:47.298Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2021-10-13T21:29:47.298Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2021-10-13T21:34:51.144Z] ----------------------------------------------------------------------
+[debug] [2021-10-13T21:34:51.147Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Skander\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-10-13T21:34:51.147Z] CLI Version:   9.20.0
+[debug] [2021-10-13T21:34:51.147Z] Platform:      win32
+[debug] [2021-10-13T21:34:51.147Z] Node Version:  v14.15.0
+[debug] [2021-10-13T21:34:51.148Z] Time:          Wed Oct 13 2021 23:34:51 GMT+0200 (heure d’été d’Europe centrale)
+[debug] [2021-10-13T21:34:51.148Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-13T21:34:51.199Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-13T21:34:51.199Z] > authorizing via signed-in user (lassoued.skanderr@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Skander\Desktop\skander\projects\pfa\DigitalThings
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using digital-7855c. 
+[debug] [2021-10-13T21:34:55.482Z] > refreshing access token with scopes: []
+[debug] [2021-10-13T21:34:55.482Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-13T21:34:55.943Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Wed, 13 Oct 2021 21:34:55 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-13T21:34:56.049Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/digital-7855c [none]
+[debug] [2021-10-13T21:34:56.881Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/digital-7855c 200
+[debug] [2021-10-13T21:34:56.881Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/digital-7855c {"projectId":"digital-7855c","projectNumber":"225965240101","displayName":"digital","name":"projects/digital-7855c","resources":{"hostingSite":"digital-7855c","realtimeDatabaseInstance":"digital-7855c-default-rtdb"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-10-13T21:35:23.083Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-10-13T21:35:24.621Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-10-13T21:35:24.622Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.1.2","browserURL":"https://www.gstatic.com/firebasejs/9.1.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.1.2/firebase.tgz"},"live":{"version":"9.1","browserURL":"https://www.gstatic.com/firebasejs/live/9.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.1/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.1.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.1.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.1.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.1.2/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.1.2/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.1.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.1.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.1.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.1.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.1.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.1.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.1.2/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.memory.js"}}
+[info] +  Wrote dist/DigitalThings//index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\Skander\Desktop\skander\projects\pfa\DigitalThings 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=541079070&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-10-13T21:35:35.881Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"c4ee248c78849307c590","redirect_uri":"http://localhost:9005","state":"541079070"}
+[debug] [2021-10-13T21:35:36.296Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Wed, 13 Oct 2021 21:35:36 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, X-PJAX-Container, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"dd72bb188100ef8d71e6a25669d887da\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/","x-github-request-id":"FF22:319E:936A5F:98F887:61675128"}
+[debug] [2021-10-13T21:35:36.333Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-10-13T21:35:36.802Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-10-13T21:35:36.803Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"SkanderLassoued09","id":72462368,"node_id":"MDQ6VXNlcjcyNDYyMzY4","avatar_url":"https://avatars.githubusercontent.com/u/72462368?v=4","gravatar_id":"","url":"https://api.github.com/users/SkanderLassoued09","html_url":"https://github.com/SkanderLassoued09","followers_url":"https://api.github.com/users/SkanderLassoued09/followers","following_url":"https://api.github.com/users/SkanderLassoued09/following{/other_user}","gists_url":"https://api.github.com/users/SkanderLassoued09/gists{/gist_id}","starred_url":"https://api.github.com/users/SkanderLassoued09/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/SkanderLassoued09/subscriptions","organizations_url":"https://api.github.com/users/SkanderLassoued09/orgs","repos_url":"https://api.github.com/users/SkanderLassoued09/repos","events_url":"https://api.github.com/users/SkanderLassoued09/events{/privacy}","received_events_url":"https://api.github.com/users/SkanderLassoued09/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":11,"public_gists":0,"followers":0,"following":0,"created_at":"2020-10-06T16:45:36Z","updated_at":"2021-10-02T16:16:25Z","private_gists":0,"total_private_repos":3,"owned_private_repos":3,"disk_usage":54297,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as SkanderLassoued09 
+[info] 
